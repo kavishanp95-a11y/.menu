@@ -18,7 +18,7 @@ const upload = (data, name) => {
                     });
                 });
             });
-        } catch (err) {
+        } catch (err) { 
             reject(err);
         }
     });
